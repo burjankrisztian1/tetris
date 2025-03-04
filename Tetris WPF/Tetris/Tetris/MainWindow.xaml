@@ -1,0 +1,17 @@
+﻿<Window x:Class="Tetris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tetris"
+        mc:Ignorable="d"
+        Title="Tetris" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid>
+            <Grid Margin="272,29,273,29"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="123,167,0,0" VerticalAlignment="Top" Height="30" Width="50"/>
+            <Image Margin="255,10,0,0" Source="/border.png" Stretch="Fill" Height="414" VerticalAlignment="Top" HorizontalAlignment="Left" Width="293"/>
+        </Grid>
+
+    </Grid>
+</Window>
