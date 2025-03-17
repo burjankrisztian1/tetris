@@ -358,11 +358,9 @@ namespace TetrisWPF
             }
 
             Score += 10;
-            if (Score > Level * 100)
-            {
-                Level++;
-            }
+            UpdateLevel();
         }
+
 
         private bool IsInGrid(int row, int col)
         {
@@ -394,9 +392,18 @@ namespace TetrisWPF
             {
                 Score += cleared * 100 * Level;
                 Lines += cleared;
+                UpdateLevel();
             }
 
             return cleared;
+        }
+
+        private void UpdateLevel()
+        {
+            while (Score > Level * 250)
+            {
+                Level++;
+            }
         }
 
         private bool IsRowFull(int row)
@@ -453,17 +460,6 @@ namespace TetrisWPF
             InitializeGame();
         }
 
-        private readonly ImageSource[] BlockImages = new ImageSource[]
-        {
-            new BitmapImage(new Uri("Assets/Block-Empty.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-I.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-J.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-L.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-O.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-S.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-T.png", UriKind.Relative)),
-            new BitmapImage(new Uri("Assets/Block-Z.png", UriKind.Relative))
-        };
 
         private readonly ImageSource[] TileImages = new ImageSource[]
         {
@@ -617,7 +613,7 @@ namespace TetrisWPF
 
         private void AdjustDifficulty()
         {
-            double speed = Math.Max(100, 800 - ((gameState.Level - 1) * 50));
+            double speed = Math.Max(100, 800 - ((gameState.Level - 1) * 30));
             gameTimer.Interval = TimeSpan.FromMilliseconds(speed);
         }
 
@@ -666,9 +662,10 @@ namespace TetrisWPF
         {
             gameTimer.Stop();
             gameOver = true;
-            MessageBox.Show($"Game Over!\nScore: {gameState.Score}\nLevel: {gameState.Level}\nLines: {gameState.Lines}", 
-                          "Game Over", 
-                          MessageBoxButton.OK);
+
+            var gameOverWindow = new GameOverWindow(gameState.Score, gameState.Level, gameState.Lines);
+            gameOverWindow.ShowDialog();
+
             CheckHighScore(gameState.Score);
         }
 
@@ -682,9 +679,9 @@ namespace TetrisWPF
         {
             try
             {
-                if (System.IO.File.Exists("highscores.txt"))
+                if (System.IO.File.Exists("toplista.txt"))
                 {
-                    string[] scores = System.IO.File.ReadAllLines("highscores.txt");
+                    string[] scores = System.IO.File.ReadAllLines("toplista.txt");
                     highScores.Clear();
                     foreach (string score in scores)
                     {
@@ -705,7 +702,7 @@ namespace TetrisWPF
         {
             try
             {
-                System.IO.File.WriteAllLines("highscores.txt", 
+                System.IO.File.WriteAllLines("toplista.txt", 
                     highScores.ConvertAll(score => score.ToString()));
             }
             catch (Exception)
@@ -730,12 +727,29 @@ namespace TetrisWPF
 
         private void ShowLeaderboard()
         {
-            string leaderboard = "High Scores:\n\n";
-            for (int i = 0; i < highScores.Count; i++)
+            LoadHighScores();
+            var leaderboardWindow = new LeaderboardWindow(highScores);
+            leaderboardWindow.ShowDialog();
+        }
+
+        private void PauseGame()
+        {
+            if (!gameOver && !isPaused)
             {
-                leaderboard += $"{i + 1}. {highScores[i]:N0}\n";
+                gameTimer.Stop();
+                PauseButton.Content = "FOLYTATÁS";
+                isPaused = true;
             }
-            MessageBox.Show(leaderboard, "Leaderboard", MessageBoxButton.OK);
+        }
+
+        private void ResumeGame()
+        {
+            if (!gameOver && isPaused)
+            {
+                gameTimer.Start();
+                PauseButton.Content = "MEGÁLLÍTÁS";
+                isPaused = false;
+            }
         }
 
         private void PauseButton_Click(object sender, RoutedEventArgs e)
@@ -745,15 +759,12 @@ namespace TetrisWPF
 
             if (isPaused)
             {
-                gameTimer.Start();
-                PauseButton.Content = "PAUSE";
+                ResumeGame();
             }
             else
             {
-                gameTimer.Stop();
-                PauseButton.Content = "RESUME";
+                PauseGame();
             }
-            isPaused = !isPaused;
         }
 
         private void RestartButton_Click(object sender, RoutedEventArgs e)
@@ -768,11 +779,12 @@ namespace TetrisWPF
 
         private void OptionsButton_Click(object sender, RoutedEventArgs e)
         {
-            var options = new OptionsDialog
-            {
-                Owner = this
-            };
-            options.ShowDialog();
+            PauseGame();
+
+            var optionsWindow = new OptionsWindow();
+            optionsWindow.ShowDialog();
+
+            ResumeGame();
         }
 
         private void LeaderboardButton_Click(object sender, RoutedEventArgs e)
@@ -785,65 +797,11 @@ namespace TetrisWPF
             gameState.Reset();
             gameOver = false;
             isPaused = false;
-            PauseButton.Content = "PAUSE";
+            PauseButton.Content = "MEGÁLLÍTÁS";
             gameTimer.Start();
             Draw();
         }
     }
 
-    public class OptionsDialog : Window
-    {
-        public OptionsDialog()
-        {
-            Title = "Options";
-            Width = 300;
-            Height = 200;
-            WindowStartupLocation = WindowStartupLocation.CenterOwner;
-            ResizeMode = ResizeMode.NoResize;
-            Background = new SolidColorBrush(Color.FromRgb(26, 26, 26)); 
-            BorderBrush = Brushes.Yellow;
-            BorderThickness = new Thickness(2);
 
-            var grid = new Grid();
-            Content = grid;
-
-            var stackPanel = new StackPanel
-            {
-                Margin = new Thickness(10)
-            };
-            grid.Children.Add(stackPanel);
-
-            var musicCheckBox = new CheckBox
-            {
-                Content = "Music",
-                IsChecked = true,
-                Margin = new Thickness(0, 5, 0, 5),
-                Foreground = Brushes.White
-            };
-            stackPanel.Children.Add(musicCheckBox);
-
-            var soundCheckBox = new CheckBox
-            {
-                Content = "Sound Effects",
-                IsChecked = true,
-                Margin = new Thickness(0, 5, 0, 5),
-                Foreground = Brushes.White
-            };
-            stackPanel.Children.Add(soundCheckBox);
-
-            var okButton = new Button
-            {
-                Content = "OK",
-                Width = 75,
-                Height = 25,
-                Margin = new Thickness(0, 10, 0, 0),
-                Background = new SolidColorBrush(Color.FromRgb(26, 26, 26)),
-                Foreground = Brushes.White,
-                BorderBrush = Brushes.Yellow,
-                BorderThickness = new Thickness(2)
-            };
-            okButton.Click += (s, e) => Close();
-            stackPanel.Children.Add(okButton);
-        }
-    }
 }

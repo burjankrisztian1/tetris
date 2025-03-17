@@ -16,7 +16,7 @@
             <ColorAnimation 
                 Storyboard.TargetName="ScoreText"
                 Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
-                To="Yellow" Duration="0:0:0.2" AutoReverse="True"/>
+                To="Orange" Duration="0:0:0.2" AutoReverse="True"/>
         </Storyboard>
 
         <Style x:Key="GameButton" TargetType="Button">
@@ -25,7 +25,7 @@
             <Setter Property="FontSize" Value="16"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="Padding" Value="10"/>
-            <Setter Property="BorderBrush" Value="Yellow"/>
+            <Setter Property="BorderBrush" Value="Orange"/>
             <Setter Property="BorderThickness" Value="2"/>
         </Style>
 
@@ -42,7 +42,7 @@
         </Style>
 
         <Style x:Key="GameBorder" TargetType="Border">
-            <Setter Property="BorderBrush" Value="Yellow"/>
+            <Setter Property="BorderBrush" Value="Orange"/>
             <Setter Property="BorderThickness" Value="2"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="Padding" Value="5"/>
@@ -69,7 +69,7 @@
         <StackPanel Grid.Column="1" Margin="10">
             <Border Style="{StaticResource GameBorder}" Margin="0,0,0,10">
                 <StackPanel>
-                    <TextBlock Text="HOLD" 
+                    <TextBlock Text="TART" 
                                Style="{StaticResource GameText}"
                                FontSize="20"/>
                     <Canvas x:Name="HoldCanvas" 
@@ -81,19 +81,19 @@
 
             <Border Style="{StaticResource GameBorder}" Margin="0,0,0,10">
                 <StackPanel Margin="5">
-                    <TextBlock Text="SCORE" 
+                    <TextBlock Text="PONTSZÁM" 
                                Style="{StaticResource GameText}"
                                FontSize="20"/>
                     <TextBlock x:Name="ScoreText" 
                                Text="0" 
                                Style="{StaticResource ScoreText}"/>
-                    <TextBlock Text="LEVEL" 
+                    <TextBlock Text="SZINT" 
                                Style="{StaticResource GameText}"
                                FontSize="20"/>
                     <TextBlock x:Name="LevelText" 
                                Text="1" 
                                Style="{StaticResource ScoreText}"/>
-                    <TextBlock Text="LINES" 
+                    <TextBlock Text="SOROK" 
                                Style="{StaticResource GameText}"
                                FontSize="20"/>
                     <TextBlock x:Name="LinesText" 
@@ -104,40 +104,39 @@
 
             <Border Style="{StaticResource GameBorder}" Margin="0,0,0,10">
                 <StackPanel>
-                    <TextBlock Text="NEXT" 
+                    <TextBlock Text="KÖVETKEZŐ" 
                                Style="{StaticResource GameText}"
                                FontSize="20"/>
                     <Canvas x:Name="NextCanvas1" 
-                            Width="120" 
+                            Width="150" 
                             Height="100"
-                            Style="{StaticResource GameCanvas}"/>
+                            Style="{StaticResource GameCanvas}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     <Canvas x:Name="NextCanvas2" 
-                            Width="120" 
+                            Width="150" 
                             Height="100"
-                            Style="{StaticResource GameCanvas}"
-                            Margin="0,5"/>
+                            Style="{StaticResource GameCanvas}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     <Canvas x:Name="NextCanvas3" 
-                            Width="120" 
+                            Width="150" 
                             Height="100"
-                            Style="{StaticResource GameCanvas}"/>
+                            Style="{StaticResource GameCanvas}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </StackPanel>
             </Border>
 
             <StackPanel Margin="10,0,0,0">
                 <Button x:Name="PauseButton" 
-                        Content="PAUSE" 
+                        Content="MEGÁLLÍTÁS" 
                         Click="PauseButton_Click"
                         Style="{StaticResource GameButton}"/>
                 <Button x:Name="RestartButton" 
-                        Content="RESTART" 
+                        Content="UJRAKEZDÉS" 
                         Click="RestartButton_Click"
                         Style="{StaticResource GameButton}"/>
                 <Button x:Name="OptionsButton" 
-                        Content="OPTIONS" 
+                        Content="BEÁLLÍTÁSOK" 
                         Click="OptionsButton_Click"
                         Style="{StaticResource GameButton}"/>
                 <Button x:Name="LeaderboardButton"
-                        Content="LEADERBOARD"
+                        Content="TOPLISTA"
                         Click="LeaderboardButton_Click"
                         Style="{StaticResource GameButton}"/>
             </StackPanel>

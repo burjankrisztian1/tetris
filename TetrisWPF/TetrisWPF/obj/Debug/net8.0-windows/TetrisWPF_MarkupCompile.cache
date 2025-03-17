@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\anonymous\Desktop\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\
 TetrisWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\anonymous\Desktop\tetris-main\TetrisWPF\TetrisWPF\App.xaml
-11407045341
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\App.xaml
+4984606005
 
-4634415102
-198-352714763
-MainWindow.xaml;
+7-487557709
+1981124507420
+GameOverWindow.xaml;LeaderboardWindow.xaml;MainWindow.xaml;OptionsWindow.xaml;
 
 False
 

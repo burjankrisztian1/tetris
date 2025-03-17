@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anonymous\\Desktop\\tetris-main\\TetrisWPF\\",
+  "WorkspaceRootPath": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\anonymous\\desktop\\tetris-main\\tetriswpf\\tetriswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\anonymous\\desktop\\tetris-main\\tetriswpf\\tetriswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\leaderboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\leaderboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\gameoverwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\gameoverwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\optionswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\optionswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\optionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\optionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\leaderboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\leaderboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|c:\\users\\diak\\onedrive - bg\u00E9szc katona j\u00F3zsef technikum\\asztal\\tetris-main\\tetriswpf\\tetriswpf\\gameoverwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{60D36D52-1071-4DCB-927E-BF556464A894}|TetrisWPF\\TetrisWPF.csproj|solutionrelative:tetriswpf\\gameoverwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +46,80 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TetrisWPF\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\AssemblyInfo.cs",
+              "RelativeToolTip": "TetrisWPF\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:15:42.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameOverWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\GameOverWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TetrisWPF\\GameOverWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\GameOverWindow.xaml.cs",
+              "RelativeToolTip": "TetrisWPF\\GameOverWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:06:26.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LeaderboardWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\LeaderboardWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TetrisWPF\\LeaderboardWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\LeaderboardWindow.xaml.cs",
+              "RelativeToolTip": "TetrisWPF\\LeaderboardWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:05:55.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TetrisWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TetrisWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEgCAAAAAAAAAAAmwF8CAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:45:31.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OptionsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\OptionsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TetrisWPF\\OptionsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\OptionsWindow.xaml.cs",
+              "RelativeToolTip": "TetrisWPF\\OptionsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:41:31.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\anonymous\\Desktop\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TetrisWPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\anonymous\\Desktop\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml",
               "RelativeToolTip": "TetrisWPF\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-16T14:45:32.243Z",
@@ -34,15 +127,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\anonymous\\Desktop\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TetrisWPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\anonymous\\Desktop\\tetris-main\\TetrisWPF\\TetrisWPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TetrisWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEoBAAAAAAAAAAAMwGwBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:45:31.643Z",
+              "DocumentIndex": 6,
+              "Title": "OptionsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\OptionsWindow.xaml",
+              "RelativeDocumentMoniker": "TetrisWPF\\OptionsWindow.xaml",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\OptionsWindow.xaml",
+              "RelativeToolTip": "TetrisWPF\\OptionsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T10:41:07.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaderboardWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\LeaderboardWindow.xaml",
+              "RelativeDocumentMoniker": "TetrisWPF\\LeaderboardWindow.xaml",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\LeaderboardWindow.xaml",
+              "RelativeToolTip": "TetrisWPF\\LeaderboardWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T11:05:31.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameOverWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\GameOverWindow.xaml",
+              "RelativeDocumentMoniker": "TetrisWPF\\GameOverWindow.xaml",
+              "ToolTip": "C:\\Users\\Diak\\OneDrive - BG\u00E9SZC Katona J\u00F3zsef Technikum\\Asztal\\tetris-main\\TetrisWPF\\TetrisWPF\\GameOverWindow.xaml",
+              "RelativeToolTip": "TetrisWPF\\GameOverWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T10:19:02.31Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,15 @@
+﻿<Window x:Class="TetrisWPF.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Beállítások" Height="300" Width="400" WindowStartupLocation="CenterScreen"
+        Background="#FF2D2D30" Foreground="White" BorderThickness="2" BorderBrush="Orange" ResizeMode="NoResize">
+    <Grid>
+        <Border BorderBrush="Orange" BorderThickness="2" Padding="20">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                <TextBlock Text="BEÁLLÍTÁSOK" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <Button Content="TOPLISTA TÖRLÉSE" Width="150" Height="40" Click="OptionButton_Click" HorizontalAlignment="Center"
+                        Background="Orange" Foreground="White" FontWeight="Bold" BorderBrush="White" BorderThickness="1"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

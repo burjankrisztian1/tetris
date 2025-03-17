@@ -18,3 +18,29 @@ C:\Users\anonymous\Desktop\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-wind
 C:\Users\anonymous\Desktop\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.pdb
 C:\Users\anonymous\Desktop\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.genruntimeconfig.cache
 C:\Users\anonymous\Desktop\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\ref\TetrisWPF.dll
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\bin\Debug\net8.0-windows\TetrisWPF.exe
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\bin\Debug\net8.0-windows\TetrisWPF.deps.json
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\bin\Debug\net8.0-windows\TetrisWPF.runtimeconfig.json
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\bin\Debug\net8.0-windows\TetrisWPF.dll
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\bin\Debug\net8.0-windows\TetrisWPF.pdb
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF_MarkupCompile.cache
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF_MarkupCompile.lref
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.g.resources
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.AssemblyInfoInputs.cache
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.AssemblyInfo.cs
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.csproj.CoreCompileInputs.cache
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.dll
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\refint\TetrisWPF.dll
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.pdb
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\TetrisWPF.genruntimeconfig.cache
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\ref\TetrisWPF.dll
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\GameOverWindow.baml
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\GameOverWindow.g.cs
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\OptionsWindow.baml
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\OptionsWindow.g.cs
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\LeaderboardWindow.baml
+C:\Users\Diak\OneDrive - BGéSZC Katona József Technikum\Asztal\tetris-main\TetrisWPF\TetrisWPF\obj\Debug\net8.0-windows\LeaderboardWindow.g.cs
